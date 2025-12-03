@@ -1,0 +1,9 @@
+#define Create_0
+/*"/*'/**//* YYD ACTION
+lib_id=1
+action_id=603
+applies_to=self
+*/
+image_speed=.2
+image_xscale=-1
+x+=9

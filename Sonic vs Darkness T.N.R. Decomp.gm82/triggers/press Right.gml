@@ -1,0 +1,1 @@
+keyboard_check_pressed(global.k_right)

@@ -1,0 +1,7 @@
+sprite=sprWaterSlideLoopPlat2
+visible=0
+solid=1
+persistent=0
+depth=-10
+parent=objWoodSolid
+mask=

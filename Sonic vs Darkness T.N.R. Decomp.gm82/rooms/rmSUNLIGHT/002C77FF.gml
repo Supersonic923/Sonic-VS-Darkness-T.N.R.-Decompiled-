@@ -1,0 +1,2 @@
+water=true
+water_type=sprWaterSlideLoopWater2

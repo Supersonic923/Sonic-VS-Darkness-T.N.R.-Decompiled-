@@ -1,0 +1,7 @@
+sprite=sprite1909
+visible=1
+solid=0
+persistent=0
+depth=-11
+parent=objMetalPlat
+mask=

@@ -1,0 +1,1 @@
+enemyg=objEggPirate

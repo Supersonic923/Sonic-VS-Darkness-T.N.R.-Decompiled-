@@ -1,0 +1,7 @@
+sprite=sprite772
+visible=0
+solid=0
+persistent=0
+depth=-1000
+parent=objControl
+mask=

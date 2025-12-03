@@ -1,0 +1,29 @@
+//CollisionMoveAway (factor)
+//CollisionMoveAway (1) is standard for AI, .5 for smoother
+//call in collision event
+//objects should have am_Mass variable, >0 Could be pounds or kg
+//pushes each other out of the way while moving each other out of contact
+//Origins must be centered
+//argument0 is the max rewind step (4 for fast, .5 for slow and accurate)
+
+if!(place_meeting( x,y,other.id)) exit;
+var a,xoff,yoff,maxcheck;
+a = point_direction( x,y,other.x,other.y)
+xoff = lengthdir_x( argument0,a);
+yoff = lengthdir_y( argument0,a);
+var om,mm;
+om = other.m_Mass/m_Mass;
+mm = m_Mass/other.m_Mass;
+var mag; mag=sqrt((om*om)+(mm*mm))
+om/=mag;
+mm/=mag;
+
+maxcheck = ((speed+other.speed)/argument0)*2 + 100;
+while( place_meeting( x,y,other.id) and maxcheck>=0)
+{
+    x -= xoff * om;
+    y -= yoff * om;
+    other.x += xoff * mm;
+    other.y+=yoff * mm;
+    maxcheck-=1;
+}

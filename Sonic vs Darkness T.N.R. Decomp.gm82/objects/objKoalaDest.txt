@@ -1,0 +1,7 @@
+sprite=spr_Lvl0Block18
+visible=0
+solid=0
+persistent=0
+depth=-999999
+parent=
+mask=

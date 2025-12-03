@@ -1,0 +1,1 @@
+spinboost=1

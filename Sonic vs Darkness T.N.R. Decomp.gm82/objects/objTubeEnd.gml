@@ -1,0 +1,9 @@
+#define Collision_objPlayer
+/*"/*'/**//* YYD ACTION
+lib_id=1
+action_id=603
+applies_to=other
+*/
+if (action == action_pipe){
+action = action_rolling;
+}

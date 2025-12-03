@@ -1,0 +1,7 @@
+sprite=sprWaterSolid
+visible=0
+solid=1
+persistent=0
+depth=-10000
+parent=objWaterPlat
+mask=
